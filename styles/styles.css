@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-no-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.justity-between{
+    justify-content: space-between;
+}
+.two-elements-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.no-style-list{
+    list-style: none;
+}
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+}
+.bigger-font{
+    font-size: 4rem;
+}
+.wrap-text-title{
+    text-wrap: initial;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.main-nav{
+    width: 40%;
+}
+.log-container{
+    padding-right: 10rem;
+}
+.inherit-a{
+    color: inherit;
+    text-decoration: inherit;
+    text-align:inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+}
+.secondary-p{
+    color: #A6A6A6;
+}
+.secondary-label{
+    color: #A9A7B6;
+}
+.green-font{
+    color: #54BD95;
+}
+.green-background{
+    background-color: #54BD95;
+    color: #fff;
+}
+.dark-blue-background{
+    background-color: #161C28;
+}
+.Unsplash-icon::before{
+    content: url("../media/images/Unsplash.svg");
+}
+.Notion-icon::before{
+    content: url("../media/images/notion.svg");
+}
+.INTERCOM-icon::before{
+    content: url("../media/images/intercom.svg");
+}
+.descript-icon::before{
+    content: url("../media/images/Union.svg");
+}
+.grammarly-icon::before{
+    content: url("../media/images/grammarly.svg");
+}
+.light-blue-background{
+    background-color: #F9F8FE;
+}
+.play-icon::before{
+    content: url("../media/images/Play.png");
+}
